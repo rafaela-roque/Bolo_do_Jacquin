@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1{
-    position: absolute; /* para de respeitar as ierarquias de blocos */
+h1 {
+    position: absolute;
+    /* para de respeitar as ierarquias de blocos */
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -15,7 +16,7 @@ h1{
 }
 
 
- /* padrões de nomemclatura para class */
+/* padrões de nomemclatura para class */
 /* PascalCase
 camelCase
 snake_case
@@ -23,7 +24,7 @@ kebab-case */
 
 
 /* -------------CABECALHO------------- */
-.home_cabecalho{
+.home_cabecalho {
     background-color: #fff4f4;
     height: 120px;
     display: flex;
@@ -31,53 +32,58 @@ kebab-case */
     align-items: center;
 }
 
-.home_container{
+.home_container {
     /* background-color: #00ccff; */
-    max-width: 1200px;  /* Largura Maxima 1200 */
-    width: 95%;  /* Largura 95% */
+    max-width: 1200px;
+    /* Largura Maxima 1200 */
+    width: 95%;
+    /* Largura 95% */
     margin: 0 auto;
-} 
+}
 
 
 /* --------------BANNER---------------- */
-.home_banner{
+.home_banner {
     background-color: #fdf8f8;
     margin: 0 auto;
 }
 
-.box_texto_banner{
+.box_texto_banner {
     /* background-color: rgb(158, 232, 255); */
     font-family: "Hanken Grotesk", sans-serif;
     max-width: 520px;
 }
-.banner_container{
+
+.banner_container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner_container img{
+.banner_container img {
     width: 547px;
 
 }
 
-.linha1{
+.linha1 {
     color: #c5a028;
-    font-size: 16px; /* tamanho da fonte */
-    font-weight: 500;/* peso da fonte */
+    font-size: 16px;
+    /* tamanho da fonte */
+    font-weight: 500;
+    /* peso da fonte */
     text-transform: uppercase;
     margin-bottom: 20px;
     display: inline-block;
 }
 
-.linha2{
+.linha2 {
     font-family: "Libre Caslon Text", serif;
     font-size: 48px;
     margin-bottom: 20px;
     display: inline-block;
 }
 
-.linha3{
+.linha3 {
     font-size: 20px;
     font-style: italic;
     color: #AAAAAA;
@@ -85,7 +91,7 @@ kebab-case */
     display: inline-block;
 }
 
-.linha4{
+.linha4 {
     font-weight: 600;
     font-size: 12px;
     text-transform: uppercase;
@@ -99,12 +105,12 @@ kebab-case */
 
 /* ----------------PRODUTOS------------- */
 
-.home_produtos{
-    padding: 100px 0  ;
+.home_produtos {
+    padding: 100px 0;
 }
 
 
-.link_produtos a{
+.link_produtos a {
     font-family: "Hanken Grotesk", sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -114,12 +120,12 @@ kebab-case */
     color: #000000;
 }
 
-.link_produtos svg{
-    width: 20px ;
+.link_produtos svg {
+    width: 20px;
 
 }
 
-.link_produtos div{
+.link_produtos div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,28 +133,30 @@ kebab-case */
     margin-bottom: 20px;
 }
 
-.link_produtos hr{
+.link_produtos hr {
     max-width: 380px;
     width: 100%;
     margin: 0 auto;
 }
 
 
-.home_subtitulo{
+.home_subtitulo {
     font-family: "Libre Caslon Text", serif;
     /* background-color: #AAAAAA; */
     display: flex;
-    flex-direction: column; /* comando para virar coluna */
+    flex-direction: column;
+    /* comando para virar coluna */
     align-items: center;
     position: relative;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 
-.home_subtitulo h2{
+.home_subtitulo h2 {
     font-weight: 700;
     font-size: 64px;
-    background-image: linear-gradient(0deg, #FFFFFF, #E9E9E9 );
+    background-image: linear-gradient(0deg, #FFFFFF, #E9E9E9);
     background-clip: text;
     -webkit-background-clip: text;
 
@@ -157,17 +165,91 @@ kebab-case */
 }
 
 
-.home_subtitulo span{
+.home_subtitulo span {
     font-size: 32px;
     position: absolute;
-    bottom: -10px; 
+    bottom: -1px;
 }
 
-.home_subtitulo hr{
+.home_subtitulo hr {
     max-width: 300px;
     width: 100%;
     background-color: #c5a028;
-    margin-top: 5px;
+    margin-top: 50px;
     border: none;
-    height: 20px;
+    height: 2px;
 }
+
+.img_categoria1 {
+    background-image: url(../img/Bolo.png);
+    /* width: 70%; */
+    width: 770px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 50px 20px;
+}
+.container_categorias{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.container_categorias a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.img_categoria1 span {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 500;
+
+}
+
+
+.img_categoria1 h3 {
+
+    font-size: 32px;
+}
+
+
+.home_produtos h3 {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+}
+
+
+.col_categorias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.img_categoria2 {
+    background-image: url(../img/Tortas.png);
+
+}
+
+
+.img_categoria3 {
+    background-image: url(../img/francesa.png);
+
+
+}
+
+
+.img_categoria2,
+.img_categoria3 {
+    /* width: 25%; */
+    width: 352px;
+    height: 284px;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px 10px;
+    font-size: 24px;
+}
+
