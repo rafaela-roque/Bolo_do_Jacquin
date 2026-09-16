@@ -6,13 +6,13 @@
 
 h1 {
     position: absolute;
-    /* para de respeitar as ierarquias de blocos */
     width: 1px;
     height: 1px;
     margin: -1px;
     overflow: hidden;
     /* overflow: elemento de fazer a rolagem */
     /* hidden: esconde esse elemento */
+    /* para de respeitar as ierarquias de blocos */
 }
 
 
@@ -253,3 +253,38 @@ kebab-case */
     font-size: 24px;
 }
 
+/* ----------------FOOTER------------- */
+
+
+footer{
+    background-color: #fff4f4;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_footer{
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+
+}
+
+
+.footer_container span,
+.nav_footer a {
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.nav_footer a{
+    text-decoration: none;
+    color: #747878;
+}
