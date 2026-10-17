@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------------------------------Parte_Isa---------------------------------- */
+
+h1 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+/* ----------- CABECALHO ----------- */
+.cabecalho {
+    background-color: #4C2318;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 5%;
+}
+
+.container_cabecalho {
+    /* background-color: aqua;*/
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #FEFAE0;
+    text-decoration: none;
+}
+
+.logo svg {
+    width: 46px;
+    height: 46px;
+
+}
+
+.logo-texto small {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #CDB8A3;
+}
+
+
+/* ----------- BANNER ----------- */
+.home_banner {
+    background-color: #2E150D;
+    padding-block: 80px 70px;
+    height: 600px;
+    background-image:
+        linear-gradient(90deg, #2E150D, #2E150D 40%, #2e150d20 60%),
+        url("../img.pao/Einfaches-Dinkelbrot-aus-dem-Airfryer-5.webp");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.box_texto_banner {
+    width: 30%;
+    margin-left: 165px;
+    display: block;
+}
+
+.banner_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_container img {
+    width: 800px;
+    margin-right: 70px;
+    margin-top: -50px;
+
+}
+
+.linha1 {
+    color: #E2C7A2;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+}
+
+.box_texto_banner hr {
+    max-width: 50px;
+    position: relative;
+    top: 10px;
+    border: 1px solid #b98558;
+}
+
+
+.linha3 {
+    color: #FEFAE0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    margin: 20px 0;
+    display: inline-block;
+    font-weight: 500;
+
+}
+
+.linha4 {
+    color: #F6EBD3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    margin-bottom: 60px;
+    display: inline-block;
+
+}
+
+.linha5 {
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #FEFAE0;
+    text-decoration: none;
+
+    /* background-color: #55612F; */
+    padding: 16px 60px;
+    border-radius: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.infomacao{
+    background-color: #56652e;
+    height: 2000;
+}
+
+.linha5{
+    margin-top: -60px;
+    background-color: #56652e;
+    border: none;
+}
+
+/* -------------------------------------Parte_Rafela---------------------------------- */
+
+.sobre_nos{
+    margin-bottom: 50px;
+}
+
+.sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 60px;
+
+    padding: 50px 10%;
+    background-color: #f7f3e8;
+}
+
+.sobre img {
+    width: 100%;
+    height: 500px;
+
+    object-fit: cover;
+
+    border-radius: 20px;
+}
+
+.sobre h1 {
+    font-size: 45px;
+}
+
+.sobre p {
+    line-height: 1.6;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+
+
+p {
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.linha6{
+    background-color: #56652e;
+    color: white;
+
+    border: none;
+    border-radius: 30px;
+
+    padding: 18px 35px;
+
+    margin-top: 70px;
+}
+
+.link {
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none
+}
+
+
+/* PARTE VERDE */
+
+.verde {
+    background-color: #56652e;
+    color: white;
+
+    padding: 70px 10%;
+}
+
+.verde h2 {
+    font-size: 50px;
+}
+
+.parte_sobre1 {
+    font-size: 17px;
+    color: #2E150D;
+}
+
+.parte_sobre{
+    font-size: 17px;
+    color: #2E150D;
+    margin-top: 50px;
+    
+}
+
+.slogam{
+    line-height: 3.0;
+}
+
+/* -------------------------------------Footer-------------------------------- */
+.card {
+    padding: 28px 22px;
+}
+
+.marca h1 {
+    font-size: 26px;
+}
+
+
+.contato {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 26px;
+    padding-top: 20px;
+    border-top: 1px solid var(--borda);
+    text-align: center;
+}
+
+.contato p {
+    font-size: 14px;
+    color: var(--texto-suave);
+    margin-bottom: 14px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.redes a {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px var(--borda);
+    background-color: var(--creme-card);
+    color: var(--marrom);
+    font-size: 20px;
+    text-decoration: none;
+}
